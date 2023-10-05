@@ -7,6 +7,7 @@ import java.time.LocalDate;
 
 @Data
 public class DocumentDTO {
+    private Long id;
     private DocumentType documentType;
     private String number;
     private LocalDate expirationDate;
