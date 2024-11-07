@@ -8,6 +8,5 @@ import java.util.List;
 public class UserResponseDTO {
     private Long id;
     private String username;
-    private String email;
     private List<ProfilesDTO> authorities;
 }
