@@ -10,9 +10,10 @@ import java.util.Set;
 import java.util.UUID;
 
 @Data
-public class UserResponseDTO{
+public class UserRequestDTO{
     private UUID id;
     private String username;
+    private String password;
     private String fullName;
     private Long townHousesId;
     private List<String> phones;

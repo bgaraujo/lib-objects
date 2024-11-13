@@ -2,6 +2,8 @@ package com.home.dtos.address;
 
 import lombok.Data;
 
+import java.math.BigDecimal;
+
 @Data
 public class AddressDTO {
     private Long id;
@@ -12,5 +14,6 @@ public class AddressDTO {
     private String state;
     private String city;
     private String complement;
-    private LocationDTO location;
+    private BigDecimal lat;
+    private BigDecimal lng;
 }
