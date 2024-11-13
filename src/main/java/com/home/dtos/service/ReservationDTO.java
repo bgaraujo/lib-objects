@@ -4,11 +4,13 @@ import com.home.enums.ReservationStatusEnum;
 import lombok.Data;
 
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 @Data
 public class ReservationDTO {
     private Long id;
-    private Long personId;
+    private UUID personId;
+    private Long townhouseId;
     private Long areaId;
     private LocalDateTime startDate;
     private LocalDateTime endDate;

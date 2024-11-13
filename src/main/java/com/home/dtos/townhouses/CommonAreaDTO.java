@@ -10,6 +10,7 @@ import java.util.UUID;
 @Data
 public class CommonAreaDTO {
     private UUID id;
+    private TownhousesDTO townhouses;
     private String name;
     private String description;
     private Integer capacity;

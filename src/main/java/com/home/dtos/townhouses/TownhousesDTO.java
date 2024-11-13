@@ -13,4 +13,5 @@ public class TownhousesDTO {
     private String aliasName;
     private List<DocumentDTO> documents;
     private List<AddressDTO> addresses;
+    private List<CommonAreaDTO> commonAreas;
 }
